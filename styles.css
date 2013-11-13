@@ -1,4 +1,6 @@
 *{
+	box-sizing: border-box;
+{ 
 	margin:0;
 	padding:0;
 	}
@@ -6,7 +8,7 @@
 body {
 	margin-top:15px;
 	background-color:#FFF;
-	font-family:"Georgia", Helvetica, Arial, sans-serif;
+	font-family: arial, helvetica, sans-serif;
 	font-size:13px;
 	color:#FFF;
 	}
@@ -31,7 +33,7 @@ header {
 	
 article {width:760px;
 		background-color:#FFFFFF;
-		font-family:"Georgia", Helvetica, Arial, sans-serif;
+		font-family: arial, helvetica, sans-serif;
 		font-size:13px;
 		color:#0021A5;
 		margin-left:160px;
@@ -99,7 +101,7 @@ p {
 	
 
 figcaption {
-	font-family:"Georgia", Helvetica, Arial, sans-serif;
+	font-family: arial, helvetica, sans-serif;
 	font-size:10px;
 	text-align:center;
 	}
@@ -183,3 +185,22 @@ footer nav a:hover {
 	text-decoration:underline;
 	background-color:#FFF;
 	}
+	
+@media screen and (max-width: 600 px) {
+
+	body {
+		padding: 5%;
+	}
+	
+	h1, h2 {
+		text-align: center;
+	
+	nav {
+		width: 95%;
+	}
+	
+	#content {
+		margin-left: 0%;
+		width: 95%;
+	}
+}
